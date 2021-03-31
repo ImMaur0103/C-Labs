@@ -46,9 +46,9 @@ int main(){
 			}
 		}
 	}
-	IPint1 = (int) *IP1;
+	IPint1 = IP1[0];
 	printf("%d\n", IPint1);
-	printf("%d\n", *IP1);
+	printf("%s\n", IP1);
 
 	
 	return 0;
